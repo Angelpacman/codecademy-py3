@@ -5,4 +5,7 @@ def fizz_count(x):
         if (i == "fizz"):
             count = count  + 1
     return count
-    print count
+    print (count)
+
+#ejemplo de implementacion de la funcion
+fizz_count(("robot","toto","fizz", "fizz"))

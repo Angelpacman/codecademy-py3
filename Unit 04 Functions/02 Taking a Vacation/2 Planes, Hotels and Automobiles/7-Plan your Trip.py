@@ -1,6 +1,6 @@
 def hotel_cost(nights):
     return nights*140
-    print nights*140
+    print (nights*140)
 
 def plane_ride_cost(city):
     if city == 'Charlotte':
@@ -28,4 +28,4 @@ def trip_cost(city, days, spending_money):
     notreal = rental_car_cost(days) + hotel_cost(days) + plane_ride_cost(city) + spending_money
     return notreal
 
-print trip_cost("Los Angeles", 5, 600)
+print (trip_cost("Los Angeles", 5, 600))

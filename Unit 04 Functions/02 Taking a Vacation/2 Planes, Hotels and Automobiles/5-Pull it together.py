@@ -1,6 +1,6 @@
 def hotel_cost(nights):
     return nights*140
-    print nights*140
+    print (nights*140)
 
 def plane_ride_cost(city):
     if city == 'Charlotte':

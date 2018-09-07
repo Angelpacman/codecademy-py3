@@ -5,8 +5,8 @@ def cube(number):
 def by_three(number):
     if number % 3 == 0:
         number = number **3
-        print number
+        print (number)
         return number
     else:
-        print 'n isnt'
+        print ('n isnt')
         return False

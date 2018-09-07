@@ -2,4 +2,4 @@
 
 minimum = min(-1,30,3,78,-22)
 
-print minimum
+print (minimum)

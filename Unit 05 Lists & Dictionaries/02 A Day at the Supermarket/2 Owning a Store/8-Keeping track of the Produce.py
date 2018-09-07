@@ -13,6 +13,6 @@ stock = {
     }
 
 for key in prices:
-    print "%s" %key
-    print "price: %s" %prices[key]
-    print "stock: %s" %stock[key]
+    print ("%s" %key)
+    print ("price: %s" %prices[key])
+    print ("stock: %s \n" %stock[key])

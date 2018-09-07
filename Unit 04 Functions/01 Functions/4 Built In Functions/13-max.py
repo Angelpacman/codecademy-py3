@@ -2,4 +2,4 @@
 
 maximum = max(3,5,10,2)
 
-print maximum
+print (maximum)
