@@ -12,9 +12,9 @@ stock = {
 }
 
 for key in prices:
-    print key
-    print "price: %s" % prices[key]
-    print "stock: %s" % stock[key]
+    print (key)
+    print( "price: %s" % prices[key])
+    print( "stock: %s \n" % stock[key])
 
 total = 0
 
@@ -22,4 +22,4 @@ total = 0
 for n in stock:
     total = total + (stock[n] * prices[n])
 
-print total
+print (total)
