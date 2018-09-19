@@ -5,4 +5,4 @@ def digit_sum(n):
                 a = int(a)
                 b.append(a)
         return sum(b)
-        print sum(b)
+        print (sum(b))
