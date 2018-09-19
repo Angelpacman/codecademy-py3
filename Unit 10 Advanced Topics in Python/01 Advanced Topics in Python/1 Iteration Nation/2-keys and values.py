@@ -4,5 +4,5 @@ my_dict = {
     "color":"blue",
     "game":"PoE"
 }
-print my_dict.keys()
-print my_dict.values()
+print (my_dict.keys())
+print (my_dict.values())
