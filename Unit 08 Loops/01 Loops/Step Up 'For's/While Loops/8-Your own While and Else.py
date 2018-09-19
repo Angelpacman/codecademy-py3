@@ -7,12 +7,12 @@ guesses_left = 3
 # Start your game!
 
 while guesses_left > 0:
-    print 'You got %s guesses left' % guesses_left
-    guess = int(raw_input('Guess a number (1-10):'))
+    print ('You got %s guesses left') #% guesses_left
+    guess = int(input('Guess a number (1-10):'))
 
     if guess == random_number:
-        print 'You win!'
+        print ('You win!')
         break
     guesses_left -= 1
 else:
-    print 'You lose.'
+    print ('You lose.')
