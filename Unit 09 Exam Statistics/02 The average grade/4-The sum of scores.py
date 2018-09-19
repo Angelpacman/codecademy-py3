@@ -4,6 +4,6 @@ def grades_sum(scores):
     total = 0
     for n in scores:
         total = total + n
-        print total
+        print (total)
     return total
 grades_sum(grades)

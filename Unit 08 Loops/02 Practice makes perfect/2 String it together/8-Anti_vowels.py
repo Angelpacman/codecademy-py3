@@ -4,5 +4,5 @@ def anti_vowel(text):
     for i in text:
         if i.lower() not in vowels:
             new_text += i
-    print new_text
+    print (new_text)
     return new_text

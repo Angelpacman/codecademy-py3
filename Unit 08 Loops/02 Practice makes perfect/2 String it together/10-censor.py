@@ -4,7 +4,7 @@ def censor(text, word):
     for i in words:
         if i == word:
             w.append(len(i)*"*")
-        else: 
+        else:
             w.append(i)
-    print " ".join(w)
+    print (" ".join(w))
     return " ".join(w)

@@ -1,1 +1,1 @@
-print "Time to conquer the variance!"
+print ("Time to conquer the variance!")

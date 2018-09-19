@@ -4,6 +4,6 @@ def print_grades(grades):
     c = []
     for i in grades:
         c.append(i)
-        print i
+        print (i)
 
 print_grades(grades)

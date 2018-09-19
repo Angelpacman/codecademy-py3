@@ -10,5 +10,5 @@ def scrabble_score(word):
     total = 0
     for i in word:
         total = total + (score[i])
-    print total
+    print (total)
     return total

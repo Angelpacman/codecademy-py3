@@ -4,5 +4,5 @@ def reverse(text):
     while(x>0):
         TETO=TETO+text[x-1]
         x=x-1
-    print TETO
+    print (TETO)
     return TETO

@@ -5,14 +5,14 @@ def grades_sum(scores):
     total = 0
     for n in scores:
         total = total + n
-        print total
+        print( total)
     return total
 
 
 def grades_average(grades):
     grades_sum(grades)
     avrg = grades_sum(grades) / float(len(grades))
-    print avrg
+    print( avrg)
     return avrg
 
 grades_average(grades)

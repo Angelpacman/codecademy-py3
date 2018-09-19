@@ -1,1 +1,1 @@
-print "Let's compute some stats!"
+print( "Let's compute some stats!")
