@@ -23,5 +23,5 @@ def compute_bill(food):
             stock[n] -= 1
         else:
             total = total
-    print total
+    print (total)
     return total

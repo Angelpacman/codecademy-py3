@@ -6,4 +6,4 @@ n.remove(1)
 del(n[0])
 # Another possible solution will remove the item at index from the list and return it to you:
 n.pop(0)
-print n
+print (n)
