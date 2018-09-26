@@ -3,4 +3,4 @@ def my_function(x):
         x[i] = x[i] * 2
     return x
 
-print my_function(range(3)) 
+print (my_function(range(3)) )
