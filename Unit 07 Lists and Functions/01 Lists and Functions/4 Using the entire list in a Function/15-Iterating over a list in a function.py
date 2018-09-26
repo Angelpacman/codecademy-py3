@@ -6,4 +6,4 @@ def total(numbers):
         result += numbers[i]
     return result
 
-print total(n)
+print (total(n))

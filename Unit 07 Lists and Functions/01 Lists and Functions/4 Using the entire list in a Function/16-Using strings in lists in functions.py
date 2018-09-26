@@ -5,4 +5,4 @@ def join_strings(words):
     for i in range(len(words)):
         result += words[i]
     return result
-print join_strings(n)
+print (join_strings(n))
