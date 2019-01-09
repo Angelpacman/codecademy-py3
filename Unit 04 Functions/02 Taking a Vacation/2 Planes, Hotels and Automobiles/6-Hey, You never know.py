@@ -1,3 +1,12 @@
+"""
+Hey, You Never Know!
+You can't expect to only spend money on the plane ride, hotel, and rental car when going on a vacation. There also needs to be room for additional costs like fancy food or souvenirs.
+"""
+#Modify your trip_cost function definition. Add a third argument, spending_money.
+
+#Modify what the trip_cost function does. Add the variable spending_money to the sum
+#that it returns.
+
 def hotel_cost(nights):
     return nights*140
     print (nights*140)

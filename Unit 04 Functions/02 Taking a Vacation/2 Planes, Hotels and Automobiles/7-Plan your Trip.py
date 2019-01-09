@@ -1,3 +1,15 @@
+"""Plan Your Trip!
+Nice work! Now that you have it all together, let's take a trip.
+
+What if we went to Los Angeles for 5 days and brought an extra 600 dollars of
+spending money?
+"""
+#After your previous code, print out the trip_cost( to "Los Angeles" for 5 days with
+#an extra 600 dollars of spending money.
+
+#Don't forget the closing ) after passing in the 3 previous values!
+
+
 def hotel_cost(nights):
     return nights*140
     print (nights*140)

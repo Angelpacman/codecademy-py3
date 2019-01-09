@@ -1,3 +1,12 @@
+"""On Beyond Strings
+Now that you understand what functions are and how to import modules, let's look at
+some of the functions that are built in to Python (no modules required!).
+
+You already know about some of the built-in functions we've used with strings,
+such as .upper(), .lower(), str(), and len(). These are great for doing work with strings,
+but what about something a little more analytic?
+"""
+
 def biggest_number(*args):
     print( max(args))
     return max(args)

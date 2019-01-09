@@ -1,3 +1,7 @@
+"""What Good are Functions?
+You might have considered the situation where you would like to reuse a piece of code, just with a few different values. Instead of rewriting the whole code, it's much cleaner to define a function, which can then be used repeatedly.
+"""
+
 def tax(bill):
     """Adds 8% tax to a restaurant bill."""
     bill *= 1.08

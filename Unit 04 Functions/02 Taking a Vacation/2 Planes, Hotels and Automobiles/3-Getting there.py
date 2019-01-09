@@ -1,3 +1,19 @@
+"""Getting There
+You're going to need to take a plane ride to get to your location.
+
+def fruit_color(fruit):
+  if fruit == "apple":
+    return "red"
+  elif fruit == "banana":
+    return "yellow"
+  elif fruit == "pear":
+    return "green"
+    
+The example above defines the function fruit_color that accepts a string as the argument fruit.
+The function returns a string if it knows the color of that fruit.
+
+"""
+
 def hotel_cost(nights):
     return nights*140
     print (nights*140)
