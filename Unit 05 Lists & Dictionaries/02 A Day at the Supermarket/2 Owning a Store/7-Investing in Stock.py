@@ -1,3 +1,7 @@
+"""Investing in Stock
+Good work! As a store manager, you’re also in charge of keeping track of your stock/inventory."""
+
+
 prices = {
     "banana": 4,
     "apple": 2,

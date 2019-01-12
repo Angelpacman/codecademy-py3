@@ -1,3 +1,11 @@
+"""Let's Check Out!
+Perfect! You've done a great job with lists and dictionaries in this project. You've practiced:
+
+Using for loops with lists and dictionaries
+Writing functions with loops, lists, and dictionaries
+Updating data in response to changes in the environment (for instance, decreasing the number of bananas in stock by 1 when you sell one).
+Thanks for shopping at the Codecademy supermarket!"""
+
 shopping_list = ["banana", "orange", "apple"]
 
 stock = {

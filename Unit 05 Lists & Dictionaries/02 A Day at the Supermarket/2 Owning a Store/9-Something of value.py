@@ -1,3 +1,7 @@
+"""Something of Value
+For paperwork and accounting purposes, let's record the total value of your inventory. It's nice to know what we're worth!"""
+
+
 prices = {
     "banana" : 4,
     "apple"  : 2,

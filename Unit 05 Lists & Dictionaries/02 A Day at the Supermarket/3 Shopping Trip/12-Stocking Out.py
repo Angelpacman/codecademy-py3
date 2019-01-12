@@ -1,3 +1,10 @@
+"""Stocking Out
+Now you need your compute_bill function to take the stock/inventory of a particular item into account when computing the cost.
+
+Ultimately, if an item isn't in stock, then it shouldn't be included in the total. You can't buy or sell what you don't have!"""
+
+
+
 shopping_list = ["banana", "orange", "apple"]
 
 stock = {
