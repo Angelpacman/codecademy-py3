@@ -1,3 +1,11 @@
+"""Put It Together
+Now lets put the three dictionaries in a list together.
+
+my_list = [1, 2, 3]
+The above example is just a reminder on how to create a list. Afterwards, my_list contains 1, 2, and 3."""
+
+#Below your code, create a list called students that contains lloyd, alice, and tyler.
+
 lloyd = {
     "name": "Lloyd",
     "homework": [90.0, 97.0, 75.0, 92.0],

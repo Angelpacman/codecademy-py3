@@ -47,10 +47,12 @@ print (get_letter_grade(get_average(lloyd)))
 print (get_letter_grade(get_average(alice)))
 print (get_letter_grade(get_average(tyler)))
 
-students=[lloyd, alice, tyler]
 
-def get_class_average(students):
-    results=[]
-    for student in students:
-        results.append(get_average(student))
-    return average(results)
+class_list = [lloyd, alice, tyler]
+def get_class_average(class_list):
+  results = []
+  for student in class_list:
+    for item in student:
+
+      results.append(get_average(student))
+  return average(results)

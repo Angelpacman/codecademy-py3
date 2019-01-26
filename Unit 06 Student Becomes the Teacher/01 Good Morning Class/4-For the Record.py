@@ -1,3 +1,20 @@
+"""For the Record
+Excellent. Now you need a hard copy document with all of your students' grades.
+
+animal_sounds = {
+  "cat": ["meow", "purr"],
+  "dog": ["woof", "bark"],
+  "fox": [],
+}
+print animal_sounds["cat"]
+The example above is just to remind you how to create a dictionary and then to access the item stored by the "cat" key."""
+
+#for each student in your students list, print out that student's data, as follows:
+
+#print the student's name
+#print the student's homework
+#print the student's quizzes
+#print the student's tests
 lloyd = {
     "name": "Lloyd",
     "homework": [90.0, 97.0, 75.0, 92.0],

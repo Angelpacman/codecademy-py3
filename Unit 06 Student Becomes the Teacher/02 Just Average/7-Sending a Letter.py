@@ -1,3 +1,21 @@
+"""Sending a Letter
+Great work!
+
+Now let's write a get_letter_grade function that takes a number score as input and returns a string with the letter grade that that student should receive."""
+
+"""Define a new function called get_letter_grade that has one argument called score. Expect score to be a number.
+
+Inside your function, test score using a chain of if: / elif: / else: statements, like so:
+
+If score is 90 or above: return "A"
+Else if score is 80 or above: return "B"
+Else if score is 70 or above: return "C"
+Else if score is 60 or above: return "D"
+Otherwise: return "F"
+Finally, test your function!
+
+Print the resulting letter grade with print. Call the get_letter_grade function and pass in get_average(lloyd)."""
+
 lloyd = {
     "name": "Lloyd",
     "homework": [90.0, 97.0, 75.0, 92.0],
@@ -45,4 +63,4 @@ def get_letter_grade(score):
 
 #get_letter_grade
 
-    
+print (get_letter_grade(get_average(lloyd)))

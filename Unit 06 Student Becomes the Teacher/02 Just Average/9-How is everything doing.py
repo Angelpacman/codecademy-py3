@@ -1,3 +1,10 @@
+"""How is Everybody Doing?
+Awesome! You're doing great. Now let's use the functions you've created to check on the grade of the class overall."""
+
+"""Create a list called students and fill it with the three students, alice, lloyd, and tyler."""
+
+
+
 lloyd = {
     "name": "Lloyd",
     "homework": [90.0, 97.0, 75.0, 92.0],
